@@ -46,7 +46,7 @@ const snakes = {
 };
 
 
-engine.play(snakes, null, (state)=>console.log(utils.print(state) + '\n'))
+engine.play(snakes, null, null, (state)=>console.log(utils.print(state) + '\n'))
 	.then((states)=>{
 		console.log(states)
 	})
